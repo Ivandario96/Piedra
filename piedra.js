@@ -1,4 +1,3 @@
-//genera un numero aleatorio entre un rango de enteros
 function aleatorio (minimo, maximo)
 {
 	var numero = Math.round( Math.random() * (maximo - minimo +1) + minimo);
